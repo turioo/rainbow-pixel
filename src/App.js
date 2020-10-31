@@ -36,7 +36,7 @@ function App(props) {
         <div className='text'>Turio created. Ⓒ 2020</div>
       
       </div> */}
-     </div>
+     </div> 
   );
 }
 
