@@ -19,13 +19,9 @@ function App(props) {
   
   return (
     <div className='app-wrapper'>
-      <div className='pageLoad'>
-
-        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div> 
-        <div>Please wait</div>
-      </div>
       
-      {/* <div className='header'>
+      
+      <div className='header'>
         <img src='https://i.imgur.com/yPd9FdW.png' alt='pines'></img>
         <div className='colors'>{pixelsArr}</div>
         <div className='button' onClick={() => window.location.reload(false)}>Clear</div>
@@ -35,7 +31,7 @@ function App(props) {
         <div className='button'>Download</div>
         <div className='text'>Turio created. Ⓒ 2020</div>
       
-      </div> */}
+      </div> 
      </div> 
   );
 }
